@@ -1,9 +1,9 @@
 <?php
 
 $server = 'localhost';
-$login = '';
-$pass = '';
-$d_base = '';
+$login = 'aleex_dino';
+$pass = 'D111111d';
+$d_base = 'aleex_dino';
 
 $db = mysqli_connect($server, $login, $pass, $d_base);
 
