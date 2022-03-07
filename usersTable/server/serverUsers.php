@@ -1,6 +1,6 @@
 
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . '/includes/db.php');
+// include($_SERVER['DOCUMENT_ROOT'] . '/includes/db.php');
 
 if (isset($_POST['addUser'])) {
     $domain = substr(strrchr($_POST['mail'], '@'), 1);
