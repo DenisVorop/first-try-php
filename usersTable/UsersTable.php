@@ -10,6 +10,43 @@
 // }
 ?>
 
+<style>
+    .table__columns-titles {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .table__columns-title {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .table__user {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .table__user:last-child {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .column-table__map {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+
 <div class="form__border" id="user-add-form">
     <div style="display: flex; padding: 0 0 20px 0;">
         <div>
@@ -79,42 +116,6 @@
         </div>
     </div>
 </div>
-
-<style>
-    .table__columns-titles {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0px 0px 20px 0px;
-    }
-
-    .table__columns-title {
-        width: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: underline;
-        font-weight: bold;
-    }
-
-    .table__user {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0px 0px 20px 0px;
-    }
-
-    .table__user:last-child {
-        margin: 0px 0px 0px 0px;
-    }
-
-    .column-table__map {
-        width: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-</style>
 
 <script>
     $(document).ready(function() {
