@@ -1,14 +1,4 @@
-<?php
-// $param_default = '?';
-// $param_filtered = '?filter_age=true';
-// $param_filter = $_GET['filter_age'];
 
-// if ($param_filter) {
-//     $users_db = mysqli_query($db, 'SELECT * FROM `users_db` ORDER BY age');
-// } else {
-//     $users_db = mysqli_query($db, 'SELECT * FROM `users_db` ');
-// }
-?>
 
 <style>
     .table__columns-titles {
