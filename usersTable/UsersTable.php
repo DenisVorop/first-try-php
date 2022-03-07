@@ -1,4 +1,14 @@
+<?php
+// $param_default = '?';
+// $param_filtered = '?filter_age=true';
+// $param_filter = $_GET['filter_age'];
 
+// if ($param_filter) {
+//     $users_db = mysqli_query($db, 'SELECT * FROM `users_db` ORDER BY age');
+// } else {
+//     $users_db = mysqli_query($db, 'SELECT * FROM `users_db` ');
+// }
+?>
 
 <style>
     .table__columns-titles {
@@ -82,24 +92,24 @@
                     </div>
                     <?php
 
-                    while ($users = mysqli_fetch_assoc($users_db)) {
-                        echo '
-                <div class="table__user"><div class="table__column column-table">
-                        <div class="column-table__map">' . $users['id'] . '</div>
-                    </div>
-                    <div class="table__column column-table">
-                        <div class="column-table__map">' . $users['first_name'] . '</div>
-                    </div>
-                    <div class="table__column column-table">
-                        <div class="column-table__map">' . $users['last_name'] . '</div>
-                    </div>
-                    <div class="table__column column-table">
-                        <div class="column-table__map">' . $users['mail'] . '</div>
-                    </div>
-                    <div class="table__column column-table">
-                        <div class="column-table__map">' . $users['age'] . '</div>
-                    </div></div>';
-                    }
+                //     while ($users = mysqli_fetch_assoc($users_db)) {
+                //         echo '
+                // <div class="table__user"><div class="table__column column-table">
+                //         <div class="column-table__map">' . $users['id'] . '</div>
+                //     </div>
+                //     <div class="table__column column-table">
+                //         <div class="column-table__map">' . $users['first_name'] . '</div>
+                //     </div>
+                //     <div class="table__column column-table">
+                //         <div class="column-table__map">' . $users['last_name'] . '</div>
+                //     </div>
+                //     <div class="table__column column-table">
+                //         <div class="column-table__map">' . $users['mail'] . '</div>
+                //     </div>
+                //     <div class="table__column column-table">
+                //         <div class="column-table__map">' . $users['age'] . '</div>
+                //     </div></div>';
+                //     }
                     ?>
                 </div>
             </div>
